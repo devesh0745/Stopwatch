@@ -1,0 +1,129 @@
+/*Main body*/
+
+#main{
+    height: auto;
+    width: 30vw;
+    border: 2px solid black;
+    border-radius: 30px;
+    display:block ;
+    margin: 20%;
+    padding-top: 1%;
+    padding-left: 1%;
+   /*background-image: linear-gradient(to bottom,rgb(16, 12, 76),rgb(193, 192, 208));*/
+    border-style: none;
+    box-shadow: 1px 1px 4px 4px rgb(177, 184, 189);
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    background-color: #e5e5e5;
+
+}
+
+/*Heading*/
+h3{
+    font-family: sans-serif;
+    color: rgb(2, 12, 24);
+    padding-bottom: 4%;
+    position: relative;
+}
+
+/*Display Screen*/
+#screen{
+    height: 5vh;
+    width: 25vw;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5.5%;
+    position: relative;
+    background-color: whitesmoke;
+}
+.colon{
+    font-weight: 600;
+    padding-top: 1px;
+    font-size: 20px;
+    position: relative;
+}
+
+/*Show Miliseconds on screen*/
+#milisecs{
+    font-weight: 600;
+    padding-top: 1px;
+    font-size: 20px;   
+    height: auto;
+    width: 30%;
+    padding-left: 7px;
+    position: relative;
+}
+
+/*Show seconds on screen*/
+#secs{
+    font-weight: 600;
+    padding-top: 1px;
+    font-size: 20px;  
+    height: auto;
+    width: 30%;
+    padding-left: 9px;
+    position: relative;
+}
+
+/*Show minutes on screen*/
+#mins{
+    font-weight: 600;
+    padding-top: 1px;
+    font-size: 20px;  
+    height: auto;
+    width: 30%;
+    padding-left: 9px;
+    position: relative;
+}
+
+/*start,pause and reset button inside single div*/
+#start-pause-reset{
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-around;
+    margin-right: 3%;
+}
+
+
+#start-btn{
+    height:5vh;
+    width: 8vw;
+    border-radius:10px;
+    border-color: rgb(67, 119, 129) ;
+    background-color:white;
+    color:rgb(13, 1, 1);
+    font-size: 1em;
+    align-items: center;
+    font-family: sans-serif;
+    margin-bottom:4%;
+    
+}
+
+#pause-btn{
+    height:5vh;
+    width: 8vw;
+    border-radius:10px;
+    border-color: rgb(67, 119, 129) ;
+    background-color:white;
+    color:rgb(13, 1, 1);
+    font-size: 1em;
+    align-items: center;
+    font-family: sans-serif;
+    margin-bottom:4%;
+}
+#reset-btn{
+    height:5vh;
+    width: 8vw;
+    border-radius:10px;
+    border-color: rgb(67, 119, 129) ;
+    background-color:white;
+    color:rgb(13, 1, 1);
+    font-size: 1em;
+    align-items: center;
+    font-family: sans-serif;
+    margin-bottom:4%;   
+}
+
